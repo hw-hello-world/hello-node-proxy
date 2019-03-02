@@ -10,14 +10,13 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@okta/okta-auth-js": "2.0.0",
     "cookie-parser": "^1.4.4",
     "debug": "^4.1.1",
     "express": "^4.16.4",
     "http-errors": "^1.7.2",
     "http-proxy-middleware": "^0.19.1",
-    "jade": "^1.11.0",
     "morgan": "^1.9.1",
+    "pug": "^2.0.3",
     "rimraf": "^2.6.2"
   }
 }

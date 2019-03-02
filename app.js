@@ -6,7 +6,7 @@ var logger = require('morgan');
 var proxy = require('http-proxy-middleware');
 
 var proxyServer = process.env.OKTA_SERVER;
-
+//
 // TODO: failed to proxy /api/v1/authn request
 //
 var oktaServer = proxy({
@@ -38,7 +38,7 @@ var app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'jade');
+app.set('view engine', 'pug');
 
 app.use(logger('dev'));
 app.use(express.json());
